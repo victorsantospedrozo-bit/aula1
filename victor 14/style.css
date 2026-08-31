@@ -1,0 +1,40 @@
+header {
+    background-color: #010E97;
+    color: #7FFFD4;
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: #BCCCED;
+    color: #0D0D6A;
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+
+    display: flex;
+
+    border: 1px solid #010E97;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+div p {
+    font-weight: bold;
+}
